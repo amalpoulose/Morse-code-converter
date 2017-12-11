@@ -8,7 +8,7 @@ typedef struct morse
 	struct morse *next;
 }M;
 M *hptr=0;
-void morse_init()
+void morse_init() //read all morse code data from file to linked list
 {
 	M *temp;
 	temp=malloc(sizeof(M));
